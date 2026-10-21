@@ -1,0 +1,63 @@
+:root {
+  --bg: #f5f7fb;
+  --text: #1d2433;
+  --card: #ffffff;
+  --accent: #2c7be5;
+}
+
+body.dark {
+  --bg: #101623;
+  --text: #e8ecf7;
+  --card: #1b2435;
+  --accent: #78a6ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+}
+
+.subtitle {
+  margin-top: 0.5rem;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem 2rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.card {
+  background: var(--card);
+  padding: 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+button {
+  background: var(--accent);
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+}
